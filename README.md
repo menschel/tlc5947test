@@ -10,16 +10,14 @@ Multiple chips can be daisy-chained together by combining the dout of Chip #n wi
 A separate pin is used to latch the previous written values to the output drivers.
 
 ## RPI pins used
-'''
+```
 Vcc = 3.3V or 5V (RGB Leds need 3,2V thus 5V is the better choice)
 GND 
 SPI Clock (Pin 23) to CLK of TLC5947
 SPI MOSI (Pin 19) to DIN of TLC5947
 GPIO 25 (PIN 22) to LATCH of TLC5947
-'''
+```
 ## further info found
-'''
-https://pinout.xyz/pinout/spi
-https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout
-'''
+[SPI Pinout](https://pinout.xyz/pinout/spi)
+[Adafruit board](https://learn.adafruit.com/tlc5947-tlc59711-pwm-led-driver-breakout)
 
